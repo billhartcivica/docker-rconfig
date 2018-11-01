@@ -1,0 +1,10 @@
+rconfig:
+  container_name: rconfig
+  image: wtghcivica/rconfig:3.9.0
+# To persist data for the web and database configurations, uncomment the 3 lines below:
+#  volumes:
+#  - 'mysql:/var/lib/mysql'
+#  - 'rconfig:/home/rconfig'
+  ports:
+  - "80:80"
+  - "443:443"
