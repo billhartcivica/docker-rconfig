@@ -1,0 +1,15 @@
+[Thu Nov 01 08:50:54.357420 2018] [suexec:notice] [pid 2391] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Nov 01 08:50:54.389949 2018] [auth_digest:notice] [pid 2391] AH01757: generating secret for digest authentication ...
+[Thu Nov 01 08:50:54.392078 2018] [lbmethod_heartbeat:notice] [pid 2391] AH02282: No slotmem from mod_heartmonitor
+[Thu Nov 01 08:50:54.419452 2018] [mpm_prefork:notice] [pid 2391] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.2.11 configured -- resuming normal operations
+[Thu Nov 01 08:50:54.419487 2018] [core:notice] [pid 2391] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+chown: changing ownership of '/home/rconfig/logs/wwwlog/error_log': Operation not permitted
+chown: changing ownership of '/home/rconfig/logs/wwwlog/access_log': Operation not permitted
+[Thu Nov 01 09:06:03.331248 2018] [mpm_prefork:notice] [pid 2391] AH00170: caught SIGWINCH, shutting down gracefully
+[Thu Nov 01 09:07:26.760062 2018] [suexec:notice] [pid 1295] AH01232: suEXEC mechanism enabled (wrapper: /usr/sbin/suexec)
+[Thu Nov 01 09:07:26.835424 2018] [auth_digest:notice] [pid 1295] AH01757: generating secret for digest authentication ...
+[Thu Nov 01 09:07:26.836132 2018] [lbmethod_heartbeat:notice] [pid 1295] AH02282: No slotmem from mod_heartmonitor
+[Thu Nov 01 09:07:26.894368 2018] [mpm_prefork:notice] [pid 1295] AH00163: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.2.11 configured -- resuming normal operations
+[Thu Nov 01 09:07:26.894404 2018] [core:notice] [pid 1295] AH00094: Command line: '/usr/sbin/httpd -D FOREGROUND'
+chown: changing ownership of '/home/rconfig/logs/wwwlog/error_log': Operation not permitted
+chown: changing ownership of '/home/rconfig/logs/wwwlog/access_log': Operation not permitted
