@@ -11,13 +11,13 @@ To run the container, first clone this repository, navigate to the 'docker-rconf
 folder, and create the local image:
 
 ```
-docker build -rm -t local/c7-systemd-rconfig .
+docker build -rm -t local/rconfig .
 ```
 
 Once completed, you can run the local images:
 
 ```
-docker run --name rconfig -d -p 80:80 -p 443:443 local/c7-systemd-rconfig
+docker run --name rconfig -d -p 80:80 -p 443:443 local/rconfig
 ```
 
 You can then access the installation page by opening a browser and navigating to:
