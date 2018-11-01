@@ -7,7 +7,8 @@ This image configures RConfig initially, but in it's 'raw' form, the data it hol
 won't persist. So using persistent volumes for the database and config files is needed
 if this image is to be used in production.
 
-To run the container, first create the local image:
+To run the container, first clone this repository, navigate to the 'docker-rconfig'
+folder, and create the local image:
 
 ```
 docker build -rm -t local/c7-systemd-rconfig .
@@ -31,3 +32,5 @@ Confirm that all settings are correct, (Check Settings button) then click 'Insta
 http://docker-host-ip-address/login.php
 
 Default login is 'admin' with password 'admin'
+
+ToDo: Persisting data...
