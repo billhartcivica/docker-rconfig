@@ -21,8 +21,10 @@ docker run --name rconfig -d -p 80:80 -p 443:443 local/c7-systemd-rconfig
 
 You can then access the installation page by opening a browser and navigating to ####http://docker-host-ip-address/install/
 
-The database host is 'localhost', default port 3306, login 'root' and password is currently blank (todo)
+The database host is 'localhost', default port 3306, database name is 'rconfig', login 'root' and password is currently blank (todo)
 
-Confirm that all settings are correct, then once finished login to the admin page: ####http://docker-host-ip-address/login.php
+Confirm that all settings are correct, (Check Settings button) then click 'Install Database' button. Once finished login to the admin page: 
+
+####http://docker-host-ip-address/login.php
 
 Default login is 'admin' with password 'admin'
