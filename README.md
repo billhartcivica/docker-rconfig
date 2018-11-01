@@ -23,7 +23,8 @@ You can then access the installation page by opening a browser and navigating to
 
 The database host is 'localhost', default port 3306, database name is 'rconfig', login 'root' and password is currently blank (todo)
 
-Confirm that all settings are correct, (Check Settings button) then click 'Install Database' button. Once finished login to the admin page: 
+Confirm that all settings are correct, (Check Settings button) then click 'Install Database' button. Once finished, click on the
+'Final Checks' button and confirm all is well. Then login to the admin page: 
 
 ####http://docker-host-ip-address/login.php
 
