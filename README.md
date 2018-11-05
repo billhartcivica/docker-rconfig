@@ -37,7 +37,8 @@ Default login is 'admin' with password 'admin'
 ## Persisting data
 
 During installation, after the Docker image has been started, an external database can be specified instead of the one running locally.
-This will persist SQL data in one fashion.
+This will persist SQL data in one fashion. Additionally, the second line of the docker-compose file referring to rconfig data (home/rconfig)
+must be uncommented.
 
 Alternately, uncomment the two lines in the 'docker-compose.yml' file pertaining to persistent data. This will mean SQL and RConfig
 static data will both be saved to locations on the host machine, meaning changes made to the running configuration will survive a
