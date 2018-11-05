@@ -2,6 +2,7 @@
 
 RConfig is a network device backup utility which takes regular config backups of any 
 managed switches, routers or firewalls which can be connected to via Telnet or SSH.
+https://www.rconfig.com
 
 This image configures RConfig initially, but in it's 'raw' form, the data it holds
 won't persist. So using persistent volumes for the database and config files is needed
@@ -33,4 +34,11 @@ http://docker-host-ip-address/login.php
 
 Default login is 'admin' with password 'admin'
 
-ToDo: Persisting data...
+## Persisting data
+
+During installation, after the Docker image has been started, an external database can be specified instead of the one running locally.
+This will persist SQL data in one fashion.
+
+Alternately, uncomment the two lines in the 'docker-compose.yml' file pertaining to persistent data. This will mean SQL and RConfig
+static data will both be saved to locations on the host machine, meaning changes made to the running configuration will survive a
+container restart. 
